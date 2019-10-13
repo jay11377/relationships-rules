@@ -1,8 +1,11 @@
 <?php
 
 if ($predator == 'female' && $target == 'male') {
-	if ($poor == TRUE) {
+	if ($rich == TRUE) {
 		$wanna_get_married = TRUE;
+	}
+	else {
+		$forget_about_him = TRUE;
 	}
 }
 else if ($predator == 'man' $target == 'female') {
